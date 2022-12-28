@@ -1,0 +1,499 @@
+<!doctype html>
+<html>
+<head>
+<!--	<base href="https://www.wikipedia.org/" target="_blank">-->
+	<meta charset="UTF-8">
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="John Doe">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tags in html </title>
+	 <link rel="stylesheet" href="styles.css">
+	<style>
+		h3 {color:red;}
+	</style>
+</head>
+<body>
+	<main>
+		<!-- comment tag -->
+		<p> !doctype -- It is an "information" to the browser about what document type to expect.</p>
+		<p><a href="https://www.w3schools.com" target="_blank">a Tag</a> - hreflang,media,type,download,ping,rel,referrerpolicy</p>
+		<p><abbr title="World Health Organisation" >WHO</abbr> is an organisation.</p>
+		<h3>acronym</h3>
+		<p>tag was used in HTML 4 to define an acronym.</p>
+		<h3>Address and br</h3>
+		<address>
+			nivetha<br>
+			namakkal<br>
+			637013<br>
+			tamilnadau<br>
+		</address>
+		<p>The <applet> tag was used in HTML 4 to define an embedded applet (Plug-in).</p>
+		<img src="image/image.jpg" alt="girl" width="300px" height="200px" usemap="#workmap">
+			<map name="workmap">
+				<area shape="rect" coords="12,15,150,250" href="https://en.wikipedia.org/wiki/Sunset" alt="girl" target="_blank">
+			</map>
+		<p>area-other attribute- hreflang,media,type,download,rel,referrerpolicy</p>
+		<article>
+				<h3>article-</h3>
+				<p>Forum post,Blog post,News story</p>
+		</article>
+		<aside>
+				<h3>Aside</h3>
+				<p> content is often placed as a sidebar in a document.</p>
+		</aside>
+		<h3>Audio - autoplay,controls,loop,muted ,preload</h3>
+		<audio controls>
+			<source src="audio/bgm.mp3" type="audio/mp3">
+			<source src="audio/bgm.wav" type="audio/wav">
+		</audio>
+		<p><b> this is bold text</b> using bold tag.</p>
+		<h3>Base</h3>
+		<p><a href="wiki/Wikipedia:Help_desk">base tag</a>The base tag specifies the base URL and/or target for all relative URLs in a document.The base tag must have either an href or a target attribute present, or both.
+                   There can only be one single base element in a document, and it must be inside the head element.</p>
+		<div>
+			<h3>Bdi</h3>
+			<p>arabic <bdi>إيان </bdi> word</p>
+		</div>
+		<div>
+			<h3>BdO</h3>
+			<P>The bdo tag is used to override the current text direction.</P>
+			<p>The bdo tag <bdo dir="rtl">is used to override the current text direction.</bdo></p>
+			<p>The bdo tag <bdo dir="ltr">is used to override the current text direction</bdo></p>
+		</div>
+		<P>The big tag was used in HTML 4 to define bigger text.IN HTML 5 we use font-size</P>	
+		<div>
+			<h3>Blockquote q</h3>
+			<blockquote cite="http://www.worldwildlife.org/who/index.html">
+				For 50 years, <q>WWF</q> has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 
+					countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+			</blockquote>
+		</div>
+		
+		<!--------  21 to 40 tags starts---------------->
+		
+		<div>
+			<h3>Button</h3>
+			<button type="button" >Click Me!</button>
+		</div>	
+							<!----    next tag------->
+		<div>
+			<h3>canvas</h3>
+			<canvas>The canvas tag is used to draw graphics, on the fly, via scripting 
+				(usually JavaScript).The canvas tag is transparent, and is only a container for graphics, you must use a script to actually draw the graphics.Any text inside the canvas element will be displayed in browsers with JavaScript disabled and in browsers that do not support canvas.
+			</canvas>
+		</div>
+							<!----    next tag------->
+		<h3> caption </h3>
+				<table border="1" cellspacing="2" cellpadding="2">
+					<caption>marklist</caption>
+					<colgroup>
+						<col span="1" style="background-color:red">
+					</colgroup>
+					<thead>
+					<tr>
+						<th>subject</th>
+						<th>marks</th>
+						<th>total</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<td>maths</td>
+						<td>70</td>
+						<td>100</td>
+					</tr>
+					</tbody>
+					<tfoot>
+					<tr>
+						<td>science</td>
+						<td>75</td>
+						<td>100</td>
+					</tr>
+					</tfoot>
+				</table>
+							<!----    next tag------->
+			<h3>Cite</h3>
+			<p>The cite tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).Note: A person's name is not the title of a work.The text in the cite element usually renders in italic.</p>
+			<div class="cite">
+				<p>Who says?<br>Who says you're not perfect?<br>Who says you're not worth it?<br>Who says you're the only one that's hurtin'?<br>Trust me, 
+				that's the price of beauty<br>Who says you're not pretty?<br>Who says you're not beautiful?<br>Who says	</p>
+				<p><cite>"who says"</cite> by selena gomez</p>
+			</div>	
+			
+			<!----    next tag------->
+		<h3>code</h3>
+		<p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+							<!----    next tag------->
+		<div>
+			<h3>data</h3>
+			<p>The data tag is used to add a machine-readable translation of a given content.This element provides both a machine-readable value for data processors, and a human-readable value for rendering in a browser.</p>
+			<data value="FED0416">nivetha</data>	
+		</div>
+						<!----    next tag------->
+		<form action="" method="get">
+			<label for="subject">Choose your subject:</label>
+			<input type="text" list="sub" name="subbb" id="subject">
+			<datalist id="sub">
+				<option value="maths">
+				<option value="english">
+				<option value="tamil">
+			</datalist>
+		</form>
+							<!----    next tag------->
+		<div>
+			<h3>dl dd dt</h3>
+			<p>These three elements are used to create a description list with terms and descriptions:</p>
+			<dl>
+				  <dt>Coffee</dt>
+				  <dd>Black hot drink</dd>
+				  <dt>Milk</dt>
+				  <dd>White cold drink</dd>
+			</dl>
+		</div>
+							<!----    next tag------->	
+		<h3>del</h3>
+		<p>my favorite color:<del>pink</del> skyblue</p>
+		<div>
+			<h3>details summary</h3>
+			<details>
+				<summary>summary of detail</summary>
+				<p>Specify details that the user can open and close on demand</p>da
+			</details>
+		</div>
+								<!----    next tag------->
+		<div>
+			<h3>dfn</h3>
+			<p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+			<p><dfn><abbr title="HyperText Markup Language">HTML</abbr></dfn> is the standard markup language for creating web pages.</p>
+		</div>
+							<!----    next tag------->
+		<div>
+			<h3>dialog</h3>
+			<dialog open>This is a dialog window</dialog>
+		</div>
+									<!----    next tag------->
+		<h3>em</h3>
+		<p>the contents are <em>hidden</em></p>
+											<!----    next 41 to 60 tag------->
+		<div>
+			<h3>embed</h3>
+			<embed type="image/jpg" src="image/image.jpg" alt="girl" width="300px" height="200px" >	
+		</div>
+											<!----    next tag------->
+											
+		<form action="">
+			<fieldset>
+				<legend>Personalia:</legend>
+				<label for="fname">First name:</label>
+				<input type="text" id="fname" name="fname"><br><br>
+				<label for="lname">Last name:</label>
+				<input type="text" id="lname" name="lname"><br><br>   
+			</fieldset>
+		</form>
+											<!----    next tag------->
+		<figure>
+			<img src="image/image.jpg" alt="girl" width="300px" height="200px">		
+			<figcaption>fig(1)</figcaption>
+		</figure>		
+												<!----    next tag------->							
+		The <font> tag was used in HTML 4 to specify the font face, font size, and color of text.	
+											<!----    next tag------->
+		<footer>
+			<p> footer</p>
+		</footer>														
+											<!----    next tag------->
+		<h3> frame frameset</h3>
+		<p> frame, frameset used in html 4</p>									
+											<!----    next tag------->
+		<h1>This is heading 1</h1>
+		<h2>This is heading 2</h2>
+		<h3>This is heading 3</h3>
+		<h4>This is heading 4</h4>
+		<h5>This is heading 5</h5>
+		<h6>This is heading 6</h6>
+											<!----    next tag------->
+		<head>
+			<p> head</p>
+		</head>	
+				<!----    next tag------->
+		<header>
+			<p> header</p>
+		</header>	
+				<!----    next tag------->
+		<hr>
+				<!----    next tag------->
+		<html></html>	
+				<!----    next tag------->
+		<p>The <i>i tag</i>The content inside is typically displayed in italic.</p>
+					<!----    next tag------->
+					
+		<iframe src="https://getbootstrap.com/docs/5.2/content/images/#responsive-images" name="in-frame" title="embed document"width="500px" height="200px"></iframe>
+		<a href="https://www.wikipedia.org/" target="in-frame">base tag</a>
+		
+			<!----    next tag------->
+		<img src="image/image.jpg" alt="girl" width="300px" height="200px">
+		
+					<!----    next tag------->
+					
+		<form action="" method="get">
+			<label for="subject">Choose your subject:</label>
+			<input type="text" name="subject" id="subject">
+		</form>
+		
+							<!----    next tag------->
+		<p>My favorite color is:<ins>red</ins></p>
+		
+				<!----    next tag------->
+				
+		<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text .</p>
+		
+																<!----    next 61 to 80 label to picture tags------->
+																
+																
+								<!----   label and legend tag------->
+		<form action="">
+			<fieldset>
+				<legend>Personalia:</legend>
+				<label for="fname">First name:</label>
+				<input type="text" id="fname" name="fname"><br><br>
+				<label for="lname">Last name:</label>
+				<input type="text" id="lname" name="lname"><br><br>   
+			</fieldset>
+		</form>
+					<!----  li and ol tag------->
+		<ol>
+			<li>html</li>
+			<li>xhtml</li>
+			<li>css</li>
+		</ol>
+					<!----  link tag------->
+		</main>			<!----  main tag------->
+		
+					<!----  map tag------->
+		<img src="image/image.jpg" alt="girl" width="300px" height="200px" usemap="#workmap">
+		<map name="workmap">
+			<area shape="rect"coords="12,15,150,250" href="https://en.wikipedia.org/wiki/Sunset" alt="girl" target="_blank">
+		</map>
+		<!----  mark tag------->
+		<p>Do not forget to buy <mark>milk</mark> today.</p>
+		
+		<!----  meta tag------->
+		<p>http-equiv attribute---refresh,content-security-policy,content-type,default-style</p>
+		
+				<!----  meter tag------->
+		<label for="anna">Anna's score:</label>
+		<meter id="anna" min="0" low="40" high="90" max="100" value="95"></meter></p>
+		
+					<!---- nav tag------->	
+		<nav>
+			<a href="/html/">HTML</a> |
+			<a href="/css/">CSS</a> |
+			<a href="/js/">JavaScript</a> |
+			<a href="/python/">Python</a>
+		</nav>
+							<!---- noframes and noscript tag------->	
+							
+		<!---- object tag------->	
+		<object data="image/image.jpg" width="300" height="200"></object>
+		
+					<!---- optgroup  and option tag------->	
+		<label for="subjects">Choose your subject:</label>
+		<select name="subject" id="subject">
+			<optgroup label="school subject">
+				<option value="maths">maths</option>
+				<option value="science">science</option>
+			</optgroup>
+			<optgroup label="language">
+				<option value="tamil">tamil</option>
+				<option value="english">english</option>
+			</optgroup>
+		</select>
+				<!---- output tag------->	
+		<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+			<input type="range" id="a" value="50">
+			+<input type="number" id="b" value="25">
+				=<output name="x" for="a b"></output>
+		</form>
+				
+				<!---- p tag------->	
+				<p>This is some text in a paragraph.</p>
+				
+				<!---- param tag------->	
+				
+		<object data="audio/bgm.mp3">
+			<param name="autoplay" value="true">
+		</object>
+		
+		<picture>
+			<source media="(min-width:650px)" srcset="image/image.jpg">
+			<source media="(min-width:465px)" srcset="image/image1.jpg">
+			<img src="image/image2.jpg" alt="girl" style="width:300px;">
+		</picture>
+		
+
+			<!----80to 100 tags(pre to)------->	
+			
+			<pre>
+			Text in a pre
+			element
+			is displayed    in a fixed-width
+
+			</pre>
+			
+			<!---- progress tag------->	
+			
+			<label for="file">Downloading progress:</label>
+			<progress id="file" value="32" max="100"> 32% </progress>
+			
+			<!---- quotation tag------->	
+			<p>WWF's goal is to:<q>Build a future where people live </q>We hope they succeed.</p>
+			
+						<!---- ruby rt rp tag------->	
+			<ruby>
+				漢 <rp>(</rp><rt>ㄏㄢˋ</rt><rp>)</rp>
+			</ruby>
+			
+			<!---- s tag------->	
+			<p><s>Only 50 tickets left!</s></p>
+			<p>SOLD OUT!</p>
+			
+			
+			<!---- samp tag------->	
+			<p><samp>File not found.<br>Press F1 to continue</samp></p>
+			
+			
+			<!---- script and section tag------->	
+			
+			<section>
+			<script>
+				document.getElementById("demo").innerHTML = "Hello JavaScript!";
+			</script>
+			</section>
+			
+						<!---- select tag------->	
+			<form>
+				<label for="cars">Choose a car:</label>
+				<select name="cars" id="cars">
+				  <option value="volvo">Volvo</option>
+				  <option value="saab">Saab</option>
+				  <option value="mercedes">Mercedes</option>
+				  <option value="audi">Audi</option>
+				</select>							
+			</form>
+						<!---- small tag------->	
+			<p>This is some normal text.</p>
+			<p><small>This is some smaller text.</small></p>
+
+
+						<!---- source tag------->	
+			<audio>
+				<source src="horse.ogg" type="audio/ogg">
+				<source src="horse.mp3" type="audio/mpeg">
+				Your browser does not support the audio element.
+			</audio>
+			
+			<!---- span tag------->	
+			<p>My mother has <span style="color:blue">blue</span> eyes.</p>
+			
+			<!---- strike tag------->	
+			
+			<!---- strong tag------->	
+			
+			<strong>This text is important!</strong>
+			
+			<!---- style tag------->	
+			
+			
+			<!---- sub tag------->	
+			
+			<p>This text contains <sub>subscript</sub> text.</p>
+			<!---- summary tag------->	
+			<details>
+				<summary>Epcot Center</summary>
+				<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+			</details>
+			
+			<!---- sup tag------->	
+			<p>This text contains <sup>superscript</sup> text.</p>
+			
+						<!---- 101 to 116  from svg tag------->	
+			<svg width="100" height="100">
+					<circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+			</svg>
+			  <!---- table tr td th tbody thead tfoot tag------->	
+			<table>
+				<thead>
+					<tr>
+					  <th>Month</th>
+					  <th>Savings</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+					  <td>January</td>
+					  <td>$100</td>
+					</tr>
+					<tr>
+					  <td>February</td>
+					  <td>$80</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+					  <td>Sum</td>
+					  <td>$180</td>
+					</tr>
+				</tfoot>
+			</table>
+			
+			
+						<!---- template tag------->	
+			<template></template>
+			
+			<!---- textarea tag------->	
+			<label for="w3review">Review of W3Schools:</label>
+			<textarea id="w3review" name="w3review" rows="4" cols="50">
+					At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+			</textarea>
+			
+			<!---- time tag------->	
+			
+			<p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+
+			<p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+			
+			
+			<!---- track tag------->	
+			<video width="320" height="240" controls>
+				<source src="video/video.mp4" type="video/mp4">
+				<source src="video.ogg" type="video/ogg">
+				<track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+				<track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+			</video>
+			<video width="320" height="240" controls>
+				<source src="video/video.mp4" type="video/mp4">
+				<source src="video.ogg" type="video/ogg">
+				<track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+				<track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+			</video>
+			<!---- u tag------->	
+			<p>This is some <u>mispeled</u> text.</p>
+			
+			<!---- ul tag------->	
+			
+			<ul style="list-style-type:square">
+				<li>Coffee</li>
+				<li>Tea</li>
+				<li>Milk</li>
+			</ul>
+			
+			<!---- var tag------->	
+			<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+			<!---- wbr tag------->	
+			<p>fhsdjhjhjhdjwwor<wbr>dkkdfkkdfkbkkbk<wbr>fbkbkkfbgbmgb</p>
+			
+			
+</body>
+
+</html>

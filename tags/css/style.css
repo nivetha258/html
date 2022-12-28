@@ -1,0 +1,31 @@
+*{
+margin:0;
+padding:0
+}
+
+.container{
+	width:1200px;
+	margin:0 auto;
+	background-color:lightgray;
+	padding:50px;
+}
+aside{
+  width: 30%;
+  float: right;
+  font-style: italic;
+  background-color: white;
+}
+figure{border:solid black;
+		padding :10px;
+		width:500px;
+}
+.textalign{text-align:center}
+.cite{
+  width: 30%;
+  float: center;
+  background-color: white;
+  text-align:center;
+}
+code,pre,samp,kbd,var,i,data{color:red}
+dialog{float:right}
+iframe{position:relative}
